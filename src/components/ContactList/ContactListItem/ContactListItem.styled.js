@@ -15,6 +15,16 @@ export const Items = styled.li`
   }
 `;
 
+export const Link = styled.a`
+  color: blue;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: green;
+  }
+`;
+
 export const Button = styled.button`
   padding: 2px 4px;
   text-align: center;
